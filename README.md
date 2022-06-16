@@ -12,7 +12,22 @@ Pytorch implementation for MICCAI 2022 paper **[Test-time Adaptation with Calibr
 ## Abstract
 > Class distribution plays an important role in learning deep classifiers. When the proportion of each class in the test set differs from the training set, the performance of classification nets usually degrades. Such a label distribution shift problem is common in medical diagnosis since the prevalence of disease vary over location and time. In this paper, we propose the first method to tackle label shift for medical image classi- fication, which effectively adapt the model learned from a single training label distribution to arbitrary unknown test label distribution. Our ap- proach innovates distribution calibration to learn multiple representative classifiers, which are capable of handling different one-dominating-class distributions. When given a test image, the diverse classifiers are dynam- ically aggregated via the consistency-driven test-time adaptation, to deal with the unknown test label distribution. We validate our method on two important medical image classification tasks including liver fibrosis stag- ing and COVID-19 severity prediction. Our experiments clearly show the decreased model performance under label shift. With our method, model performance significantly improves on all the test datasets with different label shifts for both medical image diagnosis tasks.
 
+## Setup
 
+```bash
+Package                Version
+---------------------- -------------------
+h5py                   3.1.0
+numpy                  1.15.4
+opencv-python          4.5.2.52
+pandas                 1.1.5
+SimpleITK              2.0.2
+Scikit-learn           0.24.2
+torch                  1.4.0
+torchvision            0.5.0
+```
+
+## Dara preparing
 
 #### 1. Access to the iCTCF dataset: https://ngdc.cncb.ac.cn/ictcf/HUST-19.php
 #### 2. Use the methods illustrated in [1] to preprocess the data.
@@ -40,24 +55,11 @@ Pytorch implementation for MICCAI 2022 paper **[Test-time Adaptation with Calibr
             └── *.npy.h5
 ```
 
-#### 4. Training
+## Run
 ```bash 
 python train.py
 ```
 
-#### 5. The used packages:
-```bash
-Package                Version
----------------------- -------------------
-h5py                   3.1.0
-numpy                  1.15.4
-opencv-python          4.5.2.52
-pandas                 1.1.5
-SimpleITK              2.0.2
-Scikit-learn           0.24.2
-torch                  1.4.0
-torchvision            0.5.0
-```
 
 
 
