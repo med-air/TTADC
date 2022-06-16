@@ -60,6 +60,16 @@ torchvision            0.5.0
 python train.py
 ```
 
+## Citation
+If this repository is useful for your research, please cite:
+
+       @article{ma2022ttadc,
+         title={Test-time Adaptation with Calibration of Medical Image Classification Nets for Label Distribution Shift},
+         author={Ma, Wenao and Chen, Cheng and Zheng, Shuang and Qin, Jing and Zhang, Huimao and Dou, Qi},
+         journal={International Conference on Medical Image Computing and Computer Assisted Intervention},
+         year={2022}
+       }  
+
 
 
 
