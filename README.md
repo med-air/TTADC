@@ -1,5 +1,15 @@
 # Implement TTADC on a public available dataset
 
+## Introduction
+
+Pytorch implementation for MICCAI 2022 paper **[Test-time Adaptation with Calibration of Medical Image Classification Nets for Label Distribution Shift
+](https://github.com/med-air/TTADC/)**
+
+<p align="center">
+<img src="./assets/intro.png" alt="intro" width="100%"/>
+</p>
+
+
 #### 1. Access to the iCTCF dataset: https://ngdc.cncb.ac.cn/ictcf/HUST-19.php
 #### 2. Use the methods illustrated in [1] to preprocess the data.
 
