@@ -60,9 +60,13 @@ python preprocessing.py
             └── *.npy.h5
 ```
 
-## Run
+## Training
 ```bash 
 python train.py
+```
+## Testing
+```bash 
+python test.py
 ```
 
 ## Citation
