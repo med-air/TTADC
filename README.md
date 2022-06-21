@@ -30,7 +30,7 @@ torchvision            0.5.0
 ## Dara preparing
 
 #### 1. Access to the iCTCF dataset: https://ngdc.cncb.ac.cn/ictcf/HUST-19.php
-#### 2. Use an unsupervised algorithm (**[COVID-MTL](https://github.com/guoqingbao/COVID-MTL)**) illustrated in [1] to segment the region of lung.
+#### 2. Use an unsupervised algorithm (**[COVID-MTL](https://github.com/guoqingbao/COVID-MTL)**) proposed by [1] to segment the region of lung.
 <p align="center">
 <img src="./assets/lung_seg.png" alt="intro" width="100%"/>
 </p>
