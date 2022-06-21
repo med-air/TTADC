@@ -34,7 +34,12 @@ torchvision            0.5.0
 
 [1] Bao, G., Chen, H., Liu, T., Gong, G., Yin, Y., Wang, L., Wang, X.: Covid-mtl: Multitask learning with shift3d and random-weighted loss for covid-19 diagnosis and severity assessment. Pattern Recognition 124, 108499 (2022) 6
 
-#### 3. Sort out the data and code:
+#### 3. Generate preprocessed data and the labels:
+```bash 
+python preprocessing.py
+```
+
+#### 4. Sort out the data and code:
 ```bash
 .
 ├── code
