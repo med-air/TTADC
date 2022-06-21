@@ -66,7 +66,7 @@ python train.py
 ```
 ## Testing
 ```bash 
-python test.py --model_step 42 --model_path <your model path>
+python test.py --model_path <your model path>
 ```
 
 ## Citation
