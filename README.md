@@ -40,7 +40,7 @@ torchvision            0.5.0
 
 #### 3. Generate preprocessed data and the labels.
 ```bash 
-python preprocessing.py
+python preprocessing.py --img_path <path of raw data> --gt_path <path of your generated mask> --label_path <path of patients label>
 ```
 
 #### 4. Sort out the data and code.
