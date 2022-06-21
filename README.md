@@ -62,7 +62,7 @@ python preprocessing.py
 
 ## Training
 ```bash 
-python train.py
+python train.py --max_epoch 45 --model_path <your model path>
 ```
 ## Testing
 ```bash 
