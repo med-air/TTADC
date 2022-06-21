@@ -30,7 +30,7 @@ torchvision            0.5.0
 ## Dara preparing
 
 #### 1. Access to the iCTCF dataset: https://ngdc.cncb.ac.cn/ictcf/HUST-19.php
-#### 2. Use the methods illustrated in [1] to preprocess the data.
+#### 2. Use the methods (**[COVID-MTL](https://github.com/guoqingbao/COVID-MTL)**) illustrated in [1] to preprocess the data.
 
 [1] Bao, G., Chen, H., Liu, T., Gong, G., Yin, Y., Wang, L., Wang, X.: Covid-mtl: Multitask learning with shift3d and random-weighted loss for covid-19 diagnosis and severity assessment. Pattern Recognition 124, 108499 (2022) 6
 
