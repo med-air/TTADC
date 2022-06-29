@@ -111,7 +111,7 @@ def inference(args, model, error_name,epoch_num, test_save_path=None):
     db_test_training = Synapse_dataset(base_dir='../data/Synapse/iCTCF_test', list_dir=args.list_dir, split=args.val_txt,is_train = False,transform=transforms.Compose(
                                    [RandomGenerator_test(output_size=[args.img_size, args.img_size])]), test_time=True)
     db_test = Synapse_dataset(base_dir='../data/Synapse/iCTCF_test', list_dir=args.list_dir, split=args.val_txt,is_train = False)
-    testloader_training = DataLoader(db_test_training, batch_size=1, shuffle=False, num_workers=2)
+    testloader_training = DataLoader(db_test_training, batch_size=10, shuffle=False, num_workers=2)
     testloader = DataLoader(db_test, batch_size=1, shuffle=False, num_workers=2)
     logging.info("{} test iterations per epoch".format(len(testloader)))
     
