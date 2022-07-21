@@ -1,4 +1,4 @@
-# Implement TTADC on a public available dataset
+# Test-time Adaptation with Calibration of Medical Image Classification Nets for Label Distribution Shift
 
 ## Introduction
 
