@@ -43,7 +43,7 @@ torchvision            0.5.0
 python preprocessing.py --img_path <path of raw data> --gt_path <path of your generated mask> --label_path <path of patients label>
 ```
 
-#### 4. Sort out the data and code.
+#### 4. Sort out the data and code. Put all the preprocessed data (.npy.h5) like this:
 ```bash
 .
 ├── code
